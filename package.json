@@ -1,0 +1,27 @@
+{
+  "name": "serialize-filenames-cli",
+  "version": "0.0.0",
+  "description": "CLI to rename all files in a current dir by numerical serialization",
+  "bin": {
+    "serialize-filenames": "cli.js"
+  },
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panstav/serialize-filenames-cli.git"
+  },
+  "author": "Stav Geffen <stavgeffen@gmail.com> (http://www.stav.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panstav/serialize-filenames-cli/issues"
+  },
+  "homepage": "https://github.com/panstav/serialize-filenames-cli#readme",
+  "dependencies": {
+    "file-extension": "2.0.1",
+    "pad-left": "2.1.0",
+    "yargs": "4.8.1"
+  }
+}
