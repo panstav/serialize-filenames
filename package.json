@@ -1,7 +1,7 @@
 {
   "name": "serialize-filenames-cli",
   "version": "0.0.0",
-  "description": "CLI to rename all files in a current dir by numerical serialization",
+  "description": "CLI for renaming all files in a directory by numerical serialization",
   "bin": {
     "serialize-filenames": "cli.js"
   },
